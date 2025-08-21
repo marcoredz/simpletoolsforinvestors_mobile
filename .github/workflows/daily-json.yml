@@ -33,7 +33,7 @@ jobs:
 
       - name: Run script
         run: |
-          python script.py
+          python update_data_script.py
 
       - name: Publish JSON to docs/
         run: |
