@@ -328,7 +328,9 @@ def load_existing_json(file_path):
 
 def merge_data(existing_data, new_data, isin_column):
     """
-    Merge existing data with new data, keeping already retrieved information
+    Merge existing data with new data:
+    - Keep static data (bondid, issueprice) from existing records if available
+    - Use all other fields from new data (prices, yields, etc.)
     """
     if not existing_data:
         return new_data
@@ -336,15 +338,17 @@ def merge_data(existing_data, new_data, isin_column):
     # Create a dictionary of existing data using ISIN as key
     existing_dict = {record[isin_column]: record for record in existing_data}
     
+    # List of fields that are static (don't change over time)
+    static_fields = ['bondid', 'issueprice']
+    
     # Update or add new records
     for new_record in new_data:
         isin = new_record[isin_column]
         if isin in existing_dict:
-            # Keep bondid and issueprice if already present
-            if 'bondid' in existing_dict[isin] and existing_dict[isin]['bondid'] is not None:
-                new_record['bondid'] = existing_dict[isin]['bondid']
-            if 'issueprice' in existing_dict[isin] and existing_dict[isin]['issueprice'] is not None:
-                new_record['issueprice'] = existing_dict[isin]['issueprice']
+            # Keep static fields from existing record if they exist and are not null
+            for field in static_fields:
+                if field in existing_dict[isin] and existing_dict[isin][field] is not None:
+                    new_record[field] = existing_dict[isin][field]
     
     return new_data
 
@@ -356,17 +360,22 @@ def main():
     print("STARTING UNIFIED BOND DATA PROCESSING")
     print("=" * 80)
     
-    # STEP 0: Download CSV from STFI
+    # Configuration
+    csv_file_path = "downloaded.csv"  # File downloaded from STFI
+    output_file_path = "output_enriched.json"
+    
+    # Load existing JSON data for static fields
+    existing_data = load_existing_json(output_file_path)
+    if existing_data:
+        log_message("MAIN", f"Found existing JSON file with {len(existing_data)} records")
+    
+    # Always download fresh CSV for updated prices
     print("\n" + "-" * 80)
     print("STEP 0: DOWNLOADING CSV FROM STFI")
     print("-" * 80)
     step0_download_stfi_csv()
     
-    # Configuration
-    csv_file_path = "downloaded.csv"  # File downloaded from STFI
-    output_file_path = "output_enriched.json"
-    
-    # Load existing data
+    # Load existing data for potential merge
     existing_data = load_existing_json(output_file_path)
     if existing_data:
         log_message(0, f"Loaded {len(existing_data)} records from existing JSON file")
@@ -393,8 +402,10 @@ def main():
         log_message(0, "ISIN column not found in CSV", "ERROR")
         sys.exit(1)
     
-    # Merge with existing data
-    json_data = merge_data(existing_data, json_data, isin_column)
+    # Merge with existing data to preserve static fields
+    if existing_data:
+        log_message(0, "Merging existing static data with new CSV data")
+        json_data = merge_data(existing_data, json_data, isin_column)
     
     # STEP 2: Retrieve ISIN-bondId mapping only for records that need it
     print("\n" + "-" * 80)
