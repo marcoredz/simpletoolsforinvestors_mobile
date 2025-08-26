@@ -362,7 +362,7 @@ def main():
     
     # Configuration
     csv_file_path = "downloaded.csv"  # File downloaded from STFI
-    output_file_path = "output_enriched.json"
+    output_file_path = "docs/output_enriched.json"
     
     # Load existing JSON data for static fields
     existing_data = load_existing_json(output_file_path)
