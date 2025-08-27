@@ -7,6 +7,7 @@ import re
 import sys
 from datetime import datetime
 import time
+from pathlib import Path
 
 def log_message(step, message, status="INFO"):
     """Helper function for consistent logging"""
