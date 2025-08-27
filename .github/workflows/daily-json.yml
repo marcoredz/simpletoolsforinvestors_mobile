@@ -32,14 +32,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Prepare docs folder
+        run: mkdir -p docs
+        
       - name: Run script
         run: |
           python update_data_script.py
-
-      - name: Publish JSON to docs/
-        run: |
-          mkdir -p docs
-          cp output_enriched.json docs/output_enriched.json
 
       - name: Commit & push (if changed)
         run: |
