@@ -3,8 +3,8 @@ name: Build & publish JSON daily
 on:
   schedule:
     # Expressed in UTC. 04:10 UTC ≈ 06:10 CEST / 05:10 CET
-    # Runs Monday to Friday only (1-5 in cron day-of-week)
-    - cron: '10 4 * * 1-5'
+    # Runs Tuesday to Saturday only (2-6 in cron day-of-week)
+    - cron: '10 4 * * 2-6'
   workflow_dispatch: {}
 
 permissions:
