@@ -83,7 +83,11 @@ def step1_csv_to_json(file_path):
         numeric_conversions = 0
         for col in df.columns:
             original_dtype = df[col].dtype
-            df[col] = pd.to_numeric(df[col], errors="ignore")
+            try:
+                converted_col = pd.to_numeric(df[col])
+            except (ValueError, TypeError):
+                continue  # leave column as-is if it contains non-numeric values
+            df[col] = converted_col
             if original_dtype != df[col].dtype:
                 numeric_conversions += 1
         
