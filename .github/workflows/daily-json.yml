@@ -44,5 +44,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/output_enriched.json
+          git add docs/cashflows.csv.zip
           git commit -m "chore: update JSON ($(date -u +'%Y-%m-%dT%H:%M:%SZ'))" || echo "No changes to commit"
           git push
