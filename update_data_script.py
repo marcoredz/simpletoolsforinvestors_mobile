@@ -57,6 +57,52 @@ def step0_download_stfi_csv():
         sys.exit(1)
 
 
+def step0b_download_cashflows_zip(output_dir):
+    """
+    STEP 0b: Download cashflows CSV zip from SimpletoolsForInvestors
+    Searches for the link whose row contains:
+    "Cashflow di tutti i titoli calcolati durante la elaborazione intraday considerando un nominale di 10000"
+    Downloads the zip file and saves it as 'cashflows.csv.zip' in the output directory.
+    """
+    log_message("0b", "Starting cashflows zip download from STFI")
+
+    url = "https://www.simpletoolsforinvestors.eu/documentivari.php"
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+    except requests.RequestException as e:
+        log_message("0b", f"Unable to fetch the page: {e}", "ERROR")
+        sys.exit(1)
+
+    soup = BeautifulSoup(response.content, 'html.parser')
+    zip_link = None
+
+    for tr in soup.find_all('tr'):
+        tds = tr.find_all('td')
+        if len(tds) == 2:
+            if "Cashflow di tutti i titoli calcolati durante la elaborazione intraday considerando un nominale di 10000" in tds[0].get_text(strip=True):
+                a_tag = tds[1].find("a", href=True)
+                if a_tag:
+                    zip_link = urljoin(url, a_tag['href'])
+                    break
+
+    if zip_link:
+        try:
+            log_message("0b", f"Found cashflows zip link: {zip_link}")
+            zip_response = requests.get(zip_link)
+            zip_response.raise_for_status()
+            dest_path = Path(output_dir) / "cashflows.csv.zip"
+            with open(dest_path, "wb") as f:
+                f.write(zip_response.content)
+            log_message("0b", f"Cashflows zip saved to: {dest_path}", "SUCCESS")
+        except requests.RequestException as e:
+            log_message("0b", f"Error downloading cashflows zip: {e}", "ERROR")
+            sys.exit(1)
+    else:
+        log_message("0b", "Cashflows zip link not found", "ERROR")
+        sys.exit(1)
+
+
 def step1_csv_to_json(file_path):
     """
     STEP 1: Convert CSV file to JSON
@@ -382,6 +428,12 @@ def main():
     print("STEP 0: DOWNLOADING CSV FROM STFI")
     print("-" * 80)
     step0_download_stfi_csv()
+
+    # Download cashflows zip
+    print("\n" + "-" * 80)
+    print("STEP 0b: DOWNLOADING CASHFLOWS ZIP FROM STFI")
+    print("-" * 80)
+    step0b_download_cashflows_zip(Path(output_file_path).parent)
     
     # Load existing data for potential merge
     existing_data = load_existing_json(output_file_path)
