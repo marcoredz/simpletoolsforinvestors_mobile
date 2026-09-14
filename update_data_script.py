@@ -31,15 +31,13 @@ def step0_download_stfi_csv():
     soup = BeautifulSoup(response.content, 'html.parser')
     csv_link = None
 
-    # Cerca in ogni riga TR
-    for tr in soup.find_all('tr'):
-        tds = tr.find_all('td')
-        if len(tds) == 2:
-            if "Rendimenti e durate calcolati End of Day" in tds[0].get_text(strip=True):
-                a_tag = tds[1].find("a", href=True)
-                if a_tag:
-                    csv_link = urljoin(url, a_tag['href'])
-                    break
+    # Nella nuova pagina il download e' il link identificato dal suo testo,
+    # senza dipendere dalla precedente struttura a tabella.
+    for a_tag in soup.find_all("a", href=True):
+        link_text = " ".join(a_tag.get_text(" ", strip=True).split())
+        if link_text.casefold() == "Dati End of Day".casefold():
+            csv_link = urljoin(url, a_tag["href"])
+            break
 
     if csv_link:
         try:
