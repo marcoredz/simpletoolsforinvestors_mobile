@@ -771,7 +771,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "10",
     "instantyield": 0.0343,
-    "issueprice": 99.757
+    "issueprice": 99.757,
+    "bondid": "1844205"
   },
   {
     "isincode": "AT0000A39UW5",
@@ -925,7 +926,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "9",
     "instantyield": 0.029,
-    "issueprice": 99.948
+    "issueprice": 99.948,
+    "bondid": "1844057"
   },
   {
     "isincode": "AT0000A3RVH9",
@@ -955,7 +957,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "2",
     "instantyield": 0.0331,
-    "issueprice": 99.878
+    "issueprice": 99.878,
+    "bondid": "1844152"
   },
   {
     "isincode": "AT0000A3T279",
@@ -985,7 +988,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "3",
     "instantyield": 0.0389,
-    "issueprice": 99.5
+    "issueprice": 99.5,
+    "bondid": "1844181"
   },
   {
     "isincode": "AT0000A3V200",
@@ -1015,7 +1019,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "10",
     "instantyield": 0.0292,
-    "issueprice": 99.837
+    "issueprice": 99.837,
+    "bondid": "1844235"
   },
   {
     "isincode": "AT0000A3V234",
@@ -1045,7 +1050,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "9",
     "instantyield": 0.0369,
-    "issueprice": 99.699
+    "issueprice": 99.699,
+    "bondid": "1844236"
   },
   {
     "isincode": "AU0000075681",
@@ -2346,7 +2352,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "6",
     "instantyield": 0.0369,
-    "issueprice": 99.703
+    "issueprice": 99.703,
+    "bondid": "1844153"
   },
   {
     "isincode": "BE0000367764",
@@ -2376,7 +2383,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "6",
     "instantyield": 0.0488,
-    "issueprice": 99.938
+    "issueprice": 99.938,
+    "bondid": "1844167"
   },
   {
     "isincode": "BE0000368770",
@@ -2406,7 +2414,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "8",
     "instantyield": 0.0321,
-    "issueprice": 99.894
+    "issueprice": 99.894,
+    "bondid": "1844230"
   },
   {
     "isincode": "DE0001030708",
@@ -3769,7 +3778,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "4",
     "instantyield": 0.0042,
-    "issueprice": 99.724
+    "issueprice": 99.724,
+    "bondid": "7018"
   },
   {
     "isincode": "DE000A11QTK7",
@@ -3799,7 +3809,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "7",
     "instantyield": 0.0164,
-    "issueprice": 98.672
+    "issueprice": 98.672,
+    "bondid": "7071"
   },
   {
     "isincode": "DE000A168Y48",
@@ -3829,7 +3840,8 @@
     "couponperiodicity": null,
     "couponmonths": "7",
     "instantyield": 0.0154,
-    "issueprice": 99.43
+    "issueprice": 99.43,
+    "bondid": "7072"
   },
   {
     "isincode": "DE000A169NC2",
@@ -3890,7 +3902,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "4",
     "instantyield": 0.0101,
-    "issueprice": 98.66
+    "issueprice": 98.66,
+    "bondid": "1844201"
   },
   {
     "isincode": "DE000A289QR9",
@@ -3951,7 +3964,8 @@
     "couponperiodicity": null,
     "couponmonths": "6",
     "instantyield": 0.0144,
-    "issueprice": 99.893
+    "issueprice": 99.893,
+    "bondid": "7075"
   },
   {
     "isincode": "DE000A2DAR65",
@@ -3981,7 +3995,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "2",
     "instantyield": 0.0063,
-    "issueprice": 99.86
+    "issueprice": 99.86,
+    "bondid": "6954"
   },
   {
     "isincode": "DE000A2GSCW3",
@@ -4073,7 +4088,8 @@
     "couponperiodicity": null,
     "couponmonths": "9",
     "instantyield": 0.0128,
-    "issueprice": 98.475
+    "issueprice": 98.475,
+    "bondid": "7076"
   },
   {
     "isincode": "DE000A2GSFA2",
@@ -4103,7 +4119,8 @@
     "couponperiodicity": null,
     "couponmonths": "9",
     "instantyield": 0.0051,
-    "issueprice": 99.224
+    "issueprice": 99.224,
+    "bondid": "7415"
   },
   {
     "isincode": "DE000A2GSLY0",
@@ -4164,7 +4181,8 @@
     "couponperiodicity": null,
     "couponmonths": "1",
     "instantyield": 0.0064,
-    "issueprice": 99.289
+    "issueprice": 99.289,
+    "bondid": "7285"
   },
   {
     "isincode": "DE000A2LQHT2",
@@ -4194,7 +4212,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "5",
     "instantyield": 0.013,
-    "issueprice": 99.521
+    "issueprice": 99.521,
+    "bondid": "7584"
   },
   {
     "isincode": "DE000A2LQSH4",
@@ -4224,7 +4243,8 @@
     "couponperiodicity": null,
     "couponmonths": "6",
     "instantyield": 0.0078,
-    "issueprice": 99.394
+    "issueprice": 99.394,
+    "bondid": "7600"
   },
   {
     "isincode": "DE000A2LQSN2",
@@ -4254,7 +4274,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "1",
     "instantyield": 0.0079,
-    "issueprice": 99.98
+    "issueprice": 99.98,
+    "bondid": "7701"
   },
   {
     "isincode": "DE000A2TR083",
@@ -4439,7 +4460,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "12",
     "instantyield": 0.0202,
-    "issueprice": 100.178
+    "issueprice": 100.178,
+    "bondid": "1844086"
   },
   {
     "isincode": "DE000BU22122",
@@ -4469,7 +4491,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "3",
     "instantyield": 0.0212,
-    "issueprice": 99.925
+    "issueprice": 99.925,
+    "bondid": "1844156"
   },
   {
     "isincode": "DE000BU22130",
@@ -4499,7 +4522,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "6",
     "instantyield": 0.0252,
-    "issueprice": 100.059
+    "issueprice": 100.059,
+    "bondid": "1844198"
   },
   {
     "isincode": "DE000BU22148",
@@ -4529,7 +4553,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "9",
     "instantyield": 0.0272,
-    "issueprice": 99.839
+    "issueprice": 99.839,
+    "bondid": "1844248"
   },
   {
     "isincode": "DE000BU22155",
@@ -4559,7 +4584,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "12",
     "instantyield": 0.03,
-    "issueprice": 99.792
+    "issueprice": 99.792,
+    "bondid": "1844294"
   },
   {
     "isincode": "DE000BU25000",
@@ -4775,7 +4801,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "4",
     "instantyield": 0.0257,
-    "issueprice": 100.16
+    "issueprice": 100.16,
+    "bondid": "1844126"
   },
   {
     "isincode": "DE000BU25075",
@@ -4805,7 +4832,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "10",
     "instantyield": 0.0293,
-    "issueprice": 100.02
+    "issueprice": 100.02,
+    "bondid": "1844257"
   },
   {
     "isincode": "DE000BU27006",
@@ -4866,7 +4894,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "11",
     "instantyield": 0.026,
-    "issueprice": 100.26
+    "issueprice": 100.26,
+    "bondid": "1844065"
   },
   {
     "isincode": "DE000BU27022",
@@ -4896,7 +4925,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "11",
     "instantyield": 0.0328,
-    "issueprice": 99.64
+    "issueprice": 99.64,
+    "bondid": "1844293"
   },
   {
     "isincode": "DE000BU2D004",
@@ -5019,7 +5049,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "5",
     "instantyield": 0.0354,
-    "issueprice": 99.921
+    "issueprice": 99.921,
+    "bondid": "1844164"
   },
   {
     "isincode": "DE000BU2Z007",
@@ -5235,7 +5266,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "2",
     "instantyield": 0.0299,
-    "issueprice": 100.6
+    "issueprice": 100.6,
+    "bondid": "1844121"
   },
   {
     "isincode": "DE000BU2Z072",
@@ -5265,7 +5297,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "8",
     "instantyield": 0.0309,
-    "issueprice": 99.2
+    "issueprice": 99.2,
+    "bondid": "1844246"
   },
   {
     "isincode": "DE000BU35025",
@@ -5326,7 +5359,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "5",
     "instantyield": 0.0292,
-    "issueprice": 93.552
+    "issueprice": 93.552,
+    "bondid": "1844259"
   },
   {
     "isincode": "DE000BU3Z005",
@@ -7092,7 +7126,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "1",
     "instantyield": 0.0312,
-    "issueprice": 100.514
+    "issueprice": 100.514,
+    "bondid": "1844076"
   },
   {
     "isincode": "ES0000012P90",
@@ -7122,7 +7157,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "3",
     "instantyield": 0.024,
-    "issueprice": 100.01
+    "issueprice": 100.01,
+    "bondid": "1844148"
   },
   {
     "isincode": "ES0000012Q08",
@@ -7152,7 +7188,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "4",
     "instantyield": 0.0349,
-    "issueprice": 99.813
+    "issueprice": 99.813,
+    "bondid": "1844150"
   },
   {
     "isincode": "ES0000012Q16",
@@ -7182,7 +7219,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "5",
     "instantyield": 0.027,
-    "issueprice": 100.104
+    "issueprice": 100.104,
+    "bondid": "1844169"
   },
   {
     "isincode": "ES0000012R56",
@@ -7212,7 +7250,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "10",
     "instantyield": 0.0436,
-    "issueprice": 99.491
+    "issueprice": 99.491,
+    "bondid": "1844171"
   },
   {
     "isincode": "ES0000012S22",
@@ -7242,7 +7281,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "10",
     "instantyield": 0.0358,
-    "issueprice": 99.6
+    "issueprice": 99.6,
+    "bondid": "1844232"
   },
   {
     "isincode": "ES0000012S30",
@@ -7272,7 +7312,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "7",
     "instantyield": 0.0435,
-    "issueprice": 99.764
+    "issueprice": 99.764,
+    "bondid": "1844288"
   },
   {
     "isincode": "EU000A18YZ05",
@@ -8170,7 +8211,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "3",
     "instantyield": 0.0075,
-    "issueprice": 99.837
+    "issueprice": 99.837,
+    "bondid": "1844211"
   },
   {
     "isincode": "EU000A1Z99Q7",
@@ -8293,7 +8335,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "9",
     "instantyield": 0.0268,
-    "issueprice": 99.771
+    "issueprice": 99.771,
+    "bondid": "1844109"
   },
   {
     "isincode": "EU000A1Z99U9",
@@ -8354,7 +8397,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "2",
     "instantyield": 0.0292,
-    "issueprice": 99.063
+    "issueprice": 99.063,
+    "bondid": "1844062"
   },
   {
     "isincode": "EU000A1Z99X3",
@@ -8384,7 +8428,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "11",
     "instantyield": 0.0217,
-    "issueprice": 99.651
+    "issueprice": 99.651,
+    "bondid": "1844097"
   },
   {
     "isincode": "EU000A1Z99Y1",
@@ -8414,7 +8459,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "2",
     "instantyield": 0.0317,
-    "issueprice": 99.257
+    "issueprice": 99.257,
+    "bondid": "1844166"
   },
   {
     "isincode": "EU000A1Z99Z8",
@@ -8444,7 +8490,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "6",
     "instantyield": 0.0284,
-    "issueprice": 99.439
+    "issueprice": 99.439,
+    "bondid": "1844237"
   },
   {
     "isincode": "EU000A1ZR7H3",
@@ -8660,7 +8707,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "6",
     "instantyield": 0.0017,
-    "issueprice": 99.467
+    "issueprice": 99.467,
+    "bondid": "1844185"
   },
   {
     "isincode": "EU000A2SCAA6",
@@ -9031,7 +9079,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "5",
     "instantyield": 0.0296,
-    "issueprice": 99.638
+    "issueprice": 99.638,
+    "bondid": "1844187"
   },
   {
     "isincode": "EU000A2SCAQ2",
@@ -9092,7 +9141,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "1",
     "instantyield": 0.0308,
-    "issueprice": 98.992
+    "issueprice": 98.992,
+    "bondid": "1844113"
   },
   {
     "isincode": "EU000A2SCAT6",
@@ -9122,7 +9172,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "5",
     "instantyield": 0.0269,
-    "issueprice": 99.814
+    "issueprice": 99.814,
+    "bondid": "1844099"
   },
   {
     "isincode": "EU000A2SCAU4",
@@ -9152,7 +9203,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "9",
     "instantyield": 0.0287,
-    "issueprice": 99.746
+    "issueprice": 99.746,
+    "bondid": "1844098"
   },
   {
     "isincode": "EU000A2SCAV2",
@@ -9182,7 +9234,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "11",
     "instantyield": 0.026,
-    "issueprice": 99.629
+    "issueprice": 99.629,
+    "bondid": "1844090"
   },
   {
     "isincode": "EU000A2SCAW0",
@@ -9212,7 +9265,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "2",
     "instantyield": 0.0242,
-    "issueprice": 99.926
+    "issueprice": 99.926,
+    "bondid": "1844210"
   },
   {
     "isincode": "EU000A2SCAX8",
@@ -9242,7 +9296,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "2",
     "instantyield": 0.0332,
-    "issueprice": 99.718
+    "issueprice": 99.718,
+    "bondid": "1844209"
   },
   {
     "isincode": "EU000A2SCAY6",
@@ -9272,7 +9327,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "3",
     "instantyield": 0.0262,
-    "issueprice": 99.954
+    "issueprice": 99.954,
+    "bondid": "1844184"
   },
   {
     "isincode": "EU000A2SCAZ3",
@@ -9302,7 +9358,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "9",
     "instantyield": 0.0325,
-    "issueprice": 99.245
+    "issueprice": 99.245,
+    "bondid": "1844204"
   },
   {
     "isincode": "EU000A3K4C42",
@@ -10727,7 +10784,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "7",
     "instantyield": 0.0265,
-    "issueprice": 99.999
+    "issueprice": 99.999,
+    "bondid": "1844108"
   },
   {
     "isincode": "EU000A4D6KN5",
@@ -10757,7 +10815,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "5",
     "instantyield": 0.0246,
-    "issueprice": 99.781
+    "issueprice": 99.781,
+    "bondid": "1844112"
   },
   {
     "isincode": "EU000A4D7ZW2",
@@ -10818,7 +10877,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "12",
     "instantyield": 0.0351,
-    "issueprice": 99.674
+    "issueprice": 99.674,
+    "bondid": "1844101"
   },
   {
     "isincode": "EU000A4E0858",
@@ -10848,7 +10908,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "3",
     "instantyield": 0.034,
-    "issueprice": 99.629
+    "issueprice": 99.629,
+    "bondid": "1844287"
   },
   {
     "isincode": "EU000A4E0866",
@@ -10878,7 +10939,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "10",
     "instantyield": 0.0453,
-    "issueprice": 99.329
+    "issueprice": 99.329,
+    "bondid": "1844286"
   },
   {
     "isincode": "EU000A4E0ET7",
@@ -10908,7 +10970,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "2",
     "instantyield": 0.0329,
-    "issueprice": 99.596
+    "issueprice": 99.596,
+    "bondid": "1844280"
   },
   {
     "isincode": "EU000A4EA8Y7",
@@ -11000,7 +11063,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "6",
     "instantyield": 0.0305,
-    "issueprice": 99.657
+    "issueprice": 99.657,
+    "bondid": "1844116"
   },
   {
     "isincode": "EU000A4ED0K0",
@@ -11061,7 +11125,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "10",
     "instantyield": 0.026,
-    "issueprice": 99.903
+    "issueprice": 99.903,
+    "bondid": "1844072"
   },
   {
     "isincode": "EU000A4EG039",
@@ -11091,7 +11156,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "10",
     "instantyield": 0.0439,
-    "issueprice": 98.538
+    "issueprice": 98.538,
+    "bondid": "1844071"
   },
   {
     "isincode": "EU000A4EG781",
@@ -11121,7 +11187,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "2",
     "instantyield": 0.0259,
-    "issueprice": 99.634
+    "issueprice": 99.634,
+    "bondid": "1844070"
   },
   {
     "isincode": "EU000A4EJF17",
@@ -11151,7 +11218,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "12",
     "instantyield": 0.0389,
-    "issueprice": 99.518
+    "issueprice": 99.518,
+    "bondid": "1844088"
   },
   {
     "isincode": "EU000A4EM8H8",
@@ -11181,7 +11249,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "1",
     "instantyield": 0.0317,
-    "issueprice": 99.541
+    "issueprice": 99.541,
+    "bondid": "1844127"
   },
   {
     "isincode": "EU000A4ENP68",
@@ -11211,7 +11280,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "7",
     "instantyield": 0.0243,
-    "issueprice": 99.839
+    "issueprice": 99.839,
+    "bondid": "1844147"
   },
   {
     "isincode": "EU000A4EPCA0",
@@ -11241,7 +11311,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "6",
     "instantyield": 0.0272,
-    "issueprice": 99.889
+    "issueprice": 99.889,
+    "bondid": "1844162"
   },
   {
     "isincode": "EU000A4EQY56",
@@ -11271,7 +11342,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "3",
     "instantyield": 0.028,
-    "issueprice": 99.123
+    "issueprice": 99.123,
+    "bondid": "1844177"
   },
   {
     "isincode": "EU000A4ERVC2",
@@ -11301,7 +11373,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "12",
     "instantyield": 0.0346,
-    "issueprice": 99.342
+    "issueprice": 99.342,
+    "bondid": "1844183"
   },
   {
     "isincode": "EU000A4ES497",
@@ -11331,7 +11404,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "10",
     "instantyield": 0.0426,
-    "issueprice": 98.787
+    "issueprice": 98.787,
+    "bondid": "1844191"
   },
   {
     "isincode": "EU000A4ETUZ1",
@@ -11361,7 +11435,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "10",
     "instantyield": 0.0268,
-    "issueprice": 99.822
+    "issueprice": 99.822,
+    "bondid": "1844196"
   },
   {
     "isincode": "EU000A4EUY43",
@@ -11391,7 +11466,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "10",
     "instantyield": 0.0326,
-    "issueprice": 99.317
+    "issueprice": 99.317,
+    "bondid": "1844216"
   },
   {
     "isincode": "EU000A4EV1G4",
@@ -11421,7 +11497,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "7",
     "instantyield": 0.0328,
-    "issueprice": 99.256
+    "issueprice": 99.256,
+    "bondid": "1844240"
   },
   {
     "isincode": "EU000A4EXVK3",
@@ -11451,7 +11528,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "10",
     "instantyield": 0.0298,
-    "issueprice": 99.662
+    "issueprice": 99.662,
+    "bondid": "1844249"
   },
   {
     "isincode": "FI4000037635",
@@ -12225,7 +12303,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "4",
     "instantyield": 0.0273,
-    "issueprice": 99.254
+    "issueprice": 99.254,
+    "bondid": "1844058"
   },
   {
     "isincode": "FI4000598776",
@@ -12255,7 +12334,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "4",
     "instantyield": 0.0374,
-    "issueprice": 99.594
+    "issueprice": 99.594,
+    "bondid": "1844163"
   },
   {
     "isincode": "FI4000602891",
@@ -12285,7 +12365,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "9",
     "instantyield": 0.0346,
-    "issueprice": 99.909
+    "issueprice": 99.909,
+    "bondid": "1844199"
   },
   {
     "isincode": "FI4000609516",
@@ -12315,7 +12396,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "4",
     "instantyield": 0.0335,
-    "issueprice": 99.953
+    "issueprice": 99.953,
+    "bondid": "1844265"
   },
   {
     "isincode": "FR0000187635",
@@ -13740,7 +13822,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "9",
     "instantyield": 0.0252,
-    "issueprice": 99.79
+    "issueprice": 99.79,
+    "bondid": "1844096"
   },
   {
     "isincode": "FR001400NEF3",
@@ -13832,7 +13915,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "2",
     "instantyield": 0.0287,
-    "issueprice": 99.78
+    "issueprice": 99.78,
+    "bondid": "1844063"
   },
   {
     "isincode": "FR001400QMF9",
@@ -13893,7 +13977,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "5",
     "instantyield": 0.0438,
-    "issueprice": 99.176
+    "issueprice": 99.176,
+    "bondid": "1844095"
   },
   {
     "isincode": "FR001400X8V5",
@@ -13923,7 +14008,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "5",
     "instantyield": 0.0362,
-    "issueprice": 100.47
+    "issueprice": 100.47,
+    "bondid": "1844176"
   },
   {
     "isincode": "FR001400XJJ3",
@@ -13953,7 +14039,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "5",
     "instantyield": 0.0504,
-    "issueprice": 98.74
+    "issueprice": 98.74,
+    "bondid": "1844175"
   },
   {
     "isincode": "FR001400XLW2",
@@ -13983,7 +14070,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "9",
     "instantyield": 0.0246,
-    "issueprice": 99.41
+    "issueprice": 99.41,
+    "bondid": "1844174"
   },
   {
     "isincode": "FR001400Z2L7",
@@ -14013,7 +14101,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "2",
     "instantyield": 0.0288,
-    "issueprice": 99.83
+    "issueprice": 99.83,
+    "bondid": "1844173"
   },
   {
     "isincode": "FR0014012II5",
@@ -14043,7 +14132,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "11",
     "instantyield": 0.0389,
-    "issueprice": 99.38
+    "issueprice": 99.38,
+    "bondid": "1844092"
   },
   {
     "isincode": "FR0014015MU5",
@@ -14073,7 +14163,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "5",
     "instantyield": 0.0484,
-    "issueprice": 98.725
+    "issueprice": 98.725,
+    "bondid": "1844261"
   },
   {
     "isincode": "FR0014016CV2",
@@ -14103,7 +14194,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "5",
     "instantyield": 0.0525,
-    "issueprice": 99.329
+    "issueprice": 99.329,
+    "bondid": "1844260"
   },
   {
     "isincode": "FR0014017Z10",
@@ -14133,7 +14225,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "6",
     "instantyield": 0.0422,
-    "issueprice": 99.106
+    "issueprice": 99.106,
+    "bondid": "1844258"
   },
   {
     "isincode": "FR0014018OI0",
@@ -14163,7 +14256,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "2",
     "instantyield": 0.0345,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844218"
   },
   {
     "isincode": "GB00B16NNR78",
@@ -14286,7 +14380,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "6,12",
     "instantyield": 0.0452,
-    "issueprice": 98.121
+    "issueprice": 98.121,
+    "bondid": "8898"
   },
   {
     "isincode": "GB00BN65R313",
@@ -14657,7 +14752,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "6",
     "instantyield": 0.0366,
-    "issueprice": 99.196
+    "issueprice": 99.196,
+    "bondid": "1844146"
   },
   {
     "isincode": "GR0128014710",
@@ -15493,7 +15589,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "6",
     "instantyield": 0.0319,
-    "issueprice": 99.617
+    "issueprice": 99.617,
+    "bondid": "1844145"
   },
   {
     "isincode": "IE00BDHDPR44",
@@ -17321,7 +17418,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "2",
     "instantyield": 0.0108,
-    "issueprice": 99.03
+    "issueprice": 99.03,
+    "bondid": "1844134"
   },
   {
     "isincode": "IT0005402117",
@@ -18498,7 +18596,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "9",
     "instantyield": 0.0499,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844002"
   },
   {
     "isincode": "IT0005507832",
@@ -19582,7 +19681,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0523,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "8747"
   },
   {
     "isincode": "IT0005588881",
@@ -19705,7 +19805,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "6,12",
     "instantyield": 0.0472,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "8921"
   },
   {
     "isincode": "IT0005595803",
@@ -19828,7 +19929,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "8",
     "instantyield": 0.0574,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844001"
   },
   {
     "isincode": "IT0005599904",
@@ -19889,7 +19991,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "7",
     "instantyield": 0.0392,
-    "issueprice": 99.244
+    "issueprice": 99.244,
+    "bondid": "1844087"
   },
   {
     "isincode": "IT0005606782",
@@ -20415,7 +20518,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0504,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844225"
   },
   {
     "isincode": "IT0005641029",
@@ -20724,7 +20828,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "9",
     "instantyield": 0.0294,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844066"
   },
   {
     "isincode": "IT0005668220",
@@ -20754,7 +20859,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "5,11",
     "instantyield": 0.0342,
-    "issueprice": 99.667
+    "issueprice": 99.667,
+    "bondid": "1844056"
   },
   {
     "isincode": "IT0005668238",
@@ -20784,7 +20890,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "4,10",
     "instantyield": 0.0496,
-    "issueprice": 99.56
+    "issueprice": 99.56,
+    "bondid": "1844055"
   },
   {
     "isincode": "IT0005671273",
@@ -20814,7 +20921,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "2,8",
     "instantyield": 0.0298,
-    "issueprice": 99.66
+    "issueprice": 99.66,
+    "bondid": "1844073"
   },
   {
     "isincode": "IT0005672024",
@@ -20844,7 +20952,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "1,4,7,10",
     "instantyield": 0.0276,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844083"
   },
   {
     "isincode": "IT0005675597",
@@ -20874,7 +20983,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "10",
     "instantyield": 0.0383,
-    "issueprice": 99.222
+    "issueprice": 99.222,
+    "bondid": "1844085"
   },
   {
     "isincode": "IT0005676504",
@@ -20904,7 +21014,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "2,8",
     "instantyield": 0.0374,
-    "issueprice": 100.19
+    "issueprice": 100.19,
+    "bondid": "1844084"
   },
   {
     "isincode": "IT0005678492",
@@ -20934,7 +21045,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0,
-    "issueprice": 97.957
+    "issueprice": 97.957,
+    "bondid": "1844089"
   },
   {
     "isincode": "IT0005678518",
@@ -20964,7 +21076,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "11",
     "instantyield": 0.028,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844091"
   },
   {
     "isincode": "IT0005684888",
@@ -20994,7 +21107,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0,
-    "issueprice": 97.825
+    "issueprice": 97.825,
+    "bondid": "1844094"
   },
   {
     "isincode": "IT0005689861",
@@ -21024,7 +21138,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0761,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844222"
   },
   {
     "isincode": "IT0005689887",
@@ -21054,7 +21169,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0,
-    "issueprice": 97.904
+    "issueprice": 97.904,
+    "bondid": "1844124"
   },
   {
     "isincode": "IT0005689895",
@@ -21084,7 +21200,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "1,7",
     "instantyield": 0.0288,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844125"
   },
   {
     "isincode": "IT0005689960",
@@ -21114,7 +21231,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "3,9",
     "instantyield": 0.0247,
-    "issueprice": 99.82
+    "issueprice": 99.82,
+    "bondid": "1844122"
   },
   {
     "isincode": "IT0005689994",
@@ -21144,7 +21262,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "3,9",
     "instantyield": 0.0335,
-    "issueprice": 99.901
+    "issueprice": 99.901,
+    "bondid": "1844123"
   },
   {
     "isincode": "IT0005692410",
@@ -21174,7 +21293,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "2,8",
     "instantyield": 0.0223,
-    "issueprice": 99.91
+    "issueprice": 99.91,
+    "bondid": "1844151"
   },
   {
     "isincode": "IT0005694630",
@@ -21204,7 +21324,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "4,10",
     "instantyield": 0.0434,
-    "issueprice": 99.99
+    "issueprice": 99.99,
+    "bondid": "1844161"
   },
   {
     "isincode": "IT0005695256",
@@ -21234,7 +21355,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0,
-    "issueprice": 97.952
+    "issueprice": 97.952,
+    "bondid": "1844168"
   },
   {
     "isincode": "IT0005696338",
@@ -21264,7 +21386,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "3,6,9,12",
     "instantyield": 0.0273,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844172"
   },
   {
     "isincode": "IT0005698458",
@@ -21294,7 +21417,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0601,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844221"
   },
   {
     "isincode": "IT0005699340",
@@ -21324,7 +21448,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0,
-    "issueprice": 97.658
+    "issueprice": 97.658,
+    "bondid": "1844180"
   },
   {
     "isincode": "IT0005704447",
@@ -21354,7 +21479,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0,
-    "issueprice": 97.428
+    "issueprice": 97.428,
+    "bondid": "1844189"
   },
   {
     "isincode": "IT0005704868",
@@ -21384,7 +21510,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "6,12",
     "instantyield": 0.0349,
-    "issueprice": 98.86
+    "issueprice": 98.86,
+    "bondid": "1844190"
   },
   {
     "isincode": "IT0005706285",
@@ -21414,7 +21541,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "1,7",
     "instantyield": 0.0403,
-    "issueprice": 99.731
+    "issueprice": 99.731,
+    "bondid": "1844192"
   },
   {
     "isincode": "IT0005706293",
@@ -21444,7 +21572,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "2,8",
     "instantyield": 0.0248,
-    "issueprice": 99.459
+    "issueprice": 99.459,
+    "bondid": "1844200"
   },
   {
     "isincode": "IT0005707614",
@@ -21474,7 +21603,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "6,12",
     "instantyield": 0.0327,
-    "issueprice": 99.34
+    "issueprice": 99.34,
+    "bondid": "1844197"
   },
   {
     "isincode": "IT0005709289",
@@ -21504,7 +21634,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0,
-    "issueprice": 97.336
+    "issueprice": 97.336,
+    "bondid": "1844203"
   },
   {
     "isincode": "IT0005711111",
@@ -21534,7 +21665,8 @@
     "couponperiodicity": 4.0,
     "couponmonths": "3,6,9,12",
     "instantyield": 0.033,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844234"
   },
   {
     "isincode": "IT0005711749",
@@ -21564,7 +21696,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0,
-    "issueprice": 98.776
+    "issueprice": 98.776,
+    "bondid": "1844217"
   },
   {
     "isincode": "IT0005713042",
@@ -21594,7 +21727,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "6",
     "instantyield": 0.0344,
-    "issueprice": 99.691
+    "issueprice": 99.691,
+    "bondid": "1844233"
   },
   {
     "isincode": "IT0005713547",
@@ -21624,7 +21758,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "6,12",
     "instantyield": 0.0161,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844244"
   },
   {
     "isincode": "IT0005716714",
@@ -21654,7 +21789,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0,
-    "issueprice": 97.326
+    "issueprice": 97.326,
+    "bondid": "1844239"
   },
   {
     "isincode": "IT0005716839",
@@ -21684,7 +21820,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "3,9",
     "instantyield": 0.0306,
-    "issueprice": 99.96
+    "issueprice": 99.96,
+    "bondid": "1844241"
   },
   {
     "isincode": "IT0005719536",
@@ -21714,7 +21851,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0,
-    "issueprice": 98.749
+    "issueprice": 98.749,
+    "bondid": "1844242"
   },
   {
     "isincode": "IT0005722514",
@@ -21744,7 +21882,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0,
-    "issueprice": 97.345
+    "issueprice": 97.345,
+    "bondid": "1844245"
   },
   {
     "isincode": "IT0005722845",
@@ -21774,7 +21913,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "3,9",
     "instantyield": 0.0354,
-    "issueprice": 99.22
+    "issueprice": 99.22,
+    "bondid": "1844247"
   },
   {
     "isincode": "IT0005725160",
@@ -21804,7 +21944,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "2,8",
     "instantyield": 0.021,
-    "issueprice": 99.74
+    "issueprice": 99.74,
+    "bondid": "1844256"
   },
   {
     "isincode": "IT0005725236",
@@ -21834,7 +21975,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0,
-    "issueprice": 98.719
+    "issueprice": 98.719,
+    "bondid": "1844255"
   },
   {
     "isincode": "IT0005729220",
@@ -21864,7 +22006,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0,
-    "issueprice": 97.277
+    "issueprice": 97.277,
+    "bondid": "1844266"
   },
   {
     "isincode": "IT0005729733",
@@ -21894,7 +22037,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "4,10",
     "instantyield": 0.0303,
-    "issueprice": 100.01
+    "issueprice": 100.01,
+    "bondid": "1844262"
   },
   {
     "isincode": "IT0005729931",
@@ -21924,7 +22068,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "4,10",
     "instantyield": 0.0418,
-    "issueprice": 99.56
+    "issueprice": 99.56,
+    "bondid": "1844264"
   },
   {
     "isincode": "IT0005730681",
@@ -21954,7 +22099,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0,
-    "issueprice": 97.08
+    "issueprice": 97.08,
+    "bondid": "1844267"
   },
   {
     "isincode": "IT0005733099",
@@ -21984,7 +22130,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "4,10",
     "instantyield": 0.0451,
-    "issueprice": 99.591
+    "issueprice": 99.591,
+    "bondid": "1844290"
   },
   {
     "isincode": "IT0005733115",
@@ -22014,7 +22161,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0,
-    "issueprice": 98.568
+    "issueprice": 98.568,
+    "bondid": "1844291"
   },
   {
     "isincode": "IT0005733636",
@@ -22044,7 +22192,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "2,8",
     "instantyield": 0.0397,
-    "issueprice": 99.58
+    "issueprice": 99.58,
+    "bondid": "1844292"
   },
   {
     "isincode": "IT0005735094",
@@ -22074,7 +22223,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0,
-    "issueprice": 96.881
+    "issueprice": 96.881,
+    "bondid": "1844296"
   },
   {
     "isincode": "IT0006526609",
@@ -22166,7 +22316,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "4,10",
     "instantyield": 0.0522,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1843982"
   },
   {
     "isincode": "NL0000102234",
@@ -22847,7 +22998,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "1",
     "instantyield": 0.0257,
-    "issueprice": 99.88
+    "issueprice": 99.88,
+    "bondid": "1844154"
   },
   {
     "isincode": "NL0015073VV8",
@@ -22877,7 +23029,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "7",
     "instantyield": 0.0292,
-    "issueprice": 98.2
+    "issueprice": 98.2,
+    "bondid": "1844182"
   },
   {
     "isincode": "NL0015074E19",
@@ -22907,7 +23060,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "1",
     "instantyield": 0.0373,
-    "issueprice": 96.61
+    "issueprice": 96.61,
+    "bondid": "1844295"
   },
   {
     "isincode": "NL0015614579",
@@ -23154,7 +23308,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "10",
     "instantyield": 0.0388,
-    "issueprice": 98.216
+    "issueprice": 98.216,
+    "bondid": "1844285"
   },
   {
     "isincode": "NO0012837642",
@@ -23184,7 +23339,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "8",
     "instantyield": 0.0329,
-    "issueprice": 98.601
+    "issueprice": 98.601,
+    "bondid": "1844284"
   },
   {
     "isincode": "NO0013238246",
@@ -23214,7 +23370,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "5",
     "instantyield": 0.0393,
-    "issueprice": 98.844
+    "issueprice": 98.844,
+    "bondid": "1844283"
   },
   {
     "isincode": "PTOTE3OE0025",
@@ -23430,7 +23587,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "6",
     "instantyield": 0.0342,
-    "issueprice": 99.978
+    "issueprice": 99.978,
+    "bondid": "1844149"
   },
   {
     "isincode": "PTOTEEOE0019",
@@ -23460,7 +23618,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "6",
     "instantyield": 0.0413,
-    "issueprice": 99.477
+    "issueprice": 99.477,
+    "bondid": "1844238"
   },
   {
     "isincode": "PTOTELOE0028",
@@ -23645,7 +23804,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "10",
     "instantyield": 0.0303,
-    "issueprice": 99.391
+    "issueprice": 99.391,
+    "bondid": "1844074"
   },
   {
     "isincode": "PTOTEROE0014",
@@ -24109,7 +24269,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "4",
     "instantyield": 0.0416,
-    "issueprice": 99.1
+    "issueprice": 99.1,
+    "bondid": "1844160"
   },
   {
     "isincode": "SI0002105227",
@@ -24139,7 +24300,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "3",
     "instantyield": 0.0347,
-    "issueprice": 99.675
+    "issueprice": 99.675,
+    "bondid": "1844252"
   },
   {
     "isincode": "US037833BH21",
@@ -24169,7 +24331,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "5,11",
     "instantyield": 0.0533,
-    "issueprice": 99.635
+    "issueprice": 99.635,
+    "bondid": "1844140"
   },
   {
     "isincode": "US105756AE07",
@@ -24385,7 +24548,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "3,9",
     "instantyield": 0.0646,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844194"
   },
   {
     "isincode": "US172967KA87",
@@ -24663,7 +24827,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "2,8",
     "instantyield": 0.0623,
-    "issueprice": 99.623
+    "issueprice": 99.623,
+    "bondid": "1844193"
   },
   {
     "isincode": "US404280AM17",
@@ -24693,7 +24858,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "1,7",
     "instantyield": 0.0613,
-    "issueprice": 99.927
+    "issueprice": 99.927,
+    "bondid": "1844195"
   },
   {
     "isincode": "US445545AF36",
@@ -24940,7 +25106,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "5,11",
     "instantyield": 0.0303,
-    "issueprice": 99.831
+    "issueprice": 99.831,
+    "bondid": "8097"
   },
   {
     "isincode": "US68389XBE40",
@@ -24970,7 +25137,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "5,11",
     "instantyield": 0.0501,
-    "issueprice": 99.325
+    "issueprice": 99.325,
+    "bondid": "1844130"
   },
   {
     "isincode": "US68389XBF15",
@@ -25000,7 +25168,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "5,11",
     "instantyield": 0.066,
-    "issueprice": 99.589
+    "issueprice": 99.589,
+    "bondid": "1844129"
   },
   {
     "isincode": "US68389XBG97",
@@ -25030,7 +25199,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "5,11",
     "instantyield": 0.0756,
-    "issueprice": 99.549
+    "issueprice": 99.549,
+    "bondid": "1844128"
   },
   {
     "isincode": "US715638BM30",
@@ -25463,7 +25633,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "4,10",
     "instantyield": 0.0754,
-    "issueprice": 94.28
+    "issueprice": 94.28,
+    "bondid": "7762"
   },
   {
     "isincode": "US912810FE39",
@@ -27260,7 +27431,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "5,11",
     "instantyield": 0.0522,
-    "issueprice": 99.29281
+    "issueprice": 99.29281,
+    "bondid": "1844243"
   },
   {
     "isincode": "US912828YB05",
@@ -27290,7 +27462,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "2,8",
     "instantyield": 0.0177,
-    "issueprice": 99.58715
+    "issueprice": 99.58715,
+    "bondid": "1844137"
   },
   {
     "isincode": "US912828YS30",
@@ -27320,7 +27493,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "5,11",
     "instantyield": 0.0191,
-    "issueprice": 99.4625
+    "issueprice": 99.4625,
+    "bondid": "1844135"
   },
   {
     "isincode": "US912828Z781",
@@ -27381,7 +27555,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "2,8",
     "instantyield": 0.0166,
-    "issueprice": 98.87874
+    "issueprice": 98.87874,
+    "bondid": "1844136"
   },
   {
     "isincode": "US91282CAV37",
@@ -27442,7 +27617,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "2,8",
     "instantyield": 0.012,
-    "issueprice": 99.79552
+    "issueprice": 99.79552,
+    "bondid": "1844139"
   },
   {
     "isincode": "US91282CDJ71",
@@ -27472,7 +27648,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "5,11",
     "instantyield": 0.0162,
-    "issueprice": 99.35965
+    "issueprice": 99.35965,
+    "bondid": "1844138"
   },
   {
     "isincode": "US91282CDY49",
@@ -28463,7 +28640,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "9",
     "instantyield": 0.0414,
-    "issueprice": 98.65
+    "issueprice": 98.65,
+    "bondid": "1844215"
   },
   {
     "isincode": "XS0295479983",
@@ -29454,7 +29632,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "3",
     "instantyield": 0.0263,
-    "issueprice": 98.918
+    "issueprice": 98.918,
+    "bondid": "1844106"
   },
   {
     "isincode": "XS1208856341",
@@ -29484,7 +29663,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "3",
     "instantyield": 0.0344,
-    "issueprice": 97.982
+    "issueprice": 97.982,
+    "bondid": "1844107"
   },
   {
     "isincode": "XS1209947271",
@@ -29762,7 +29942,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "3",
     "instantyield": 0.0302,
-    "issueprice": 98.237
+    "issueprice": 98.237,
+    "bondid": "1844105"
   },
   {
     "isincode": "XS1382791975",
@@ -29792,7 +29973,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "4",
     "instantyield": 0.0154,
-    "issueprice": 99.162
+    "issueprice": 99.162,
+    "bondid": "1844202"
   },
   {
     "isincode": "XS1412711217",
@@ -30163,7 +30345,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "1",
     "instantyield": 0.0074,
-    "issueprice": 99.25
+    "issueprice": 99.25,
+    "bondid": "1844229"
   },
   {
     "isincode": "XS1508675508",
@@ -30720,7 +30903,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "4",
     "instantyield": 0.0412,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844028"
   },
   {
     "isincode": "XS1612977717",
@@ -31308,7 +31492,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "3",
     "instantyield": 0.0387,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844213"
   },
   {
     "isincode": "XS1785340172",
@@ -31803,7 +31988,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "1",
     "instantyield": 0.0158,
-    "issueprice": 99.32
+    "issueprice": 99.32,
+    "bondid": "1844254"
   },
   {
     "isincode": "XS1936302949",
@@ -31895,7 +32081,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "1",
     "instantyield": 0.0388,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844212"
   },
   {
     "isincode": "XS1948611840",
@@ -32204,7 +32391,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "6",
     "instantyield": 0.0423,
-    "issueprice": 98.161
+    "issueprice": 98.161,
+    "bondid": "1844100"
   },
   {
     "isincode": "XS2011151755",
@@ -32420,7 +32608,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "7",
     "instantyield": 0.0051,
-    "issueprice": 99.353
+    "issueprice": 99.353,
+    "bondid": "1844119"
   },
   {
     "isincode": "XS2027596530",
@@ -32574,7 +32763,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "10",
     "instantyield": 0.0007,
-    "issueprice": 99.671
+    "issueprice": 99.671,
+    "bondid": "1844133"
   },
   {
     "isincode": "XS2056491587",
@@ -32604,7 +32794,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "10",
     "instantyield": 0.023,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844214"
   },
   {
     "isincode": "XS2065946837",
@@ -32758,7 +32949,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "9",
     "instantyield": 0.0038,
-    "issueprice": 98.916
+    "issueprice": 98.916,
+    "bondid": "8936"
   },
   {
     "isincode": "XS2104968404",
@@ -32819,7 +33011,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "1",
     "instantyield": 0.0069,
-    "issueprice": 99.845
+    "issueprice": 99.845,
+    "bondid": "1844111"
   },
   {
     "isincode": "XS2107332640",
@@ -32849,7 +33042,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "1",
     "instantyield": 0.0097,
-    "issueprice": 98.854
+    "issueprice": 98.854,
+    "bondid": "1844132"
   },
   {
     "isincode": "XS2109812508",
@@ -33096,7 +33290,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "5",
     "instantyield": 0.0217,
-    "issueprice": 99.941
+    "issueprice": 99.941,
+    "bondid": "1844110"
   },
   {
     "isincode": "XS2178857954",
@@ -33250,7 +33445,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "11",
     "instantyield": 0.0001,
-    "issueprice": 99.8
+    "issueprice": 99.8,
+    "bondid": "1844115"
   },
   {
     "isincode": "XS2201851172",
@@ -33342,7 +33538,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "9",
     "instantyield": 0.0,
-    "issueprice": 103.407
+    "issueprice": 103.407,
+    "bondid": "1844282"
   },
   {
     "isincode": "XS2210006339",
@@ -33868,7 +34065,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "2",
     "instantyield": 0.0264,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "8934"
   },
   {
     "isincode": "XS2290963466",
@@ -34053,7 +34251,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "3",
     "instantyield": 0.0028,
-    "issueprice": 99.823
+    "issueprice": 99.823,
+    "bondid": "1844114"
   },
   {
     "isincode": "XS2312756062",
@@ -34114,7 +34313,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "11",
     "instantyield": 0.0001,
-    "issueprice": 101.391
+    "issueprice": 101.391,
+    "bondid": "1844228"
   },
   {
     "isincode": "XS2317069685",
@@ -34299,7 +34499,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "4,10",
     "instantyield": 0.0223,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844005"
   },
   {
     "isincode": "XS2338004497",
@@ -34577,7 +34778,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "9",
     "instantyield": 0.0013,
-    "issueprice": 98.611
+    "issueprice": 98.611,
+    "bondid": "1844102"
   },
   {
     "isincode": "XS2388426541",
@@ -34700,7 +34902,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "4",
     "instantyield": 0.0325,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "8027"
   },
   {
     "isincode": "XS2407748016",
@@ -34885,7 +35088,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "1",
     "instantyield": 0.0075,
-    "issueprice": 99.374
+    "issueprice": 99.374,
+    "bondid": "1844263"
   },
   {
     "isincode": "XS2433141947",
@@ -34946,7 +35150,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "1",
     "instantyield": 0.003,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844117"
   },
   {
     "isincode": "XS2434393968",
@@ -35317,7 +35522,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "5",
     "instantyield": 0.0104,
-    "issueprice": 99.694
+    "issueprice": 99.694,
+    "bondid": "1844120"
   },
   {
     "isincode": "XS2447602793",
@@ -35378,7 +35584,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "5",
     "instantyield": 0.0355,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "8918"
   },
   {
     "isincode": "XS2459026204",
@@ -35470,7 +35677,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "6",
     "instantyield": 0.0167,
-    "issueprice": 99.629
+    "issueprice": 99.629,
+    "bondid": "1844118"
   },
   {
     "isincode": "XS2485248806",
@@ -35717,7 +35925,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "8",
     "instantyield": 0.029,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "8938"
   },
   {
     "isincode": "XS2529233814",
@@ -35778,7 +35987,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "10",
     "instantyield": 0.0397,
-    "issueprice": 99.814
+    "issueprice": 99.814,
+    "bondid": "1844104"
   },
   {
     "isincode": "XS2532681074",
@@ -36025,7 +36235,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "1",
     "instantyield": 0.0515,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "8741"
   },
   {
     "isincode": "XS2558594391",
@@ -36086,7 +36297,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0665,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "8558"
   },
   {
     "isincode": "XS2569287795",
@@ -36271,7 +36483,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "1",
     "instantyield": 0.0401,
-    "issueprice": 99.285
+    "issueprice": 99.285,
+    "bondid": "8939"
   },
   {
     "isincode": "XS2574873266",
@@ -36301,7 +36514,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "1",
     "instantyield": 0.0349,
-    "issueprice": 99.294
+    "issueprice": 99.294,
+    "bondid": "8940"
   },
   {
     "isincode": "XS2577518488",
@@ -36579,7 +36793,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0686,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "8646"
   },
   {
     "isincode": "XS2610236445",
@@ -36857,7 +37072,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "7",
     "instantyield": 0.0558,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "8922"
   },
   {
     "isincode": "XS2647979181",
@@ -36980,7 +37196,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "3",
     "instantyield": 0.0374,
-    "issueprice": 99.651
+    "issueprice": 99.651,
+    "bondid": "8941"
   },
   {
     "isincode": "XS2680932907",
@@ -37165,7 +37382,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "10",
     "instantyield": 0.0385,
-    "issueprice": 99.962
+    "issueprice": 99.962,
+    "bondid": "1844206"
   },
   {
     "isincode": "XS2700605285",
@@ -37195,7 +37413,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0778,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "8716"
   },
   {
     "isincode": "XS2700673440",
@@ -37225,7 +37444,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0632,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "8748"
   },
   {
     "isincode": "XS2701724663",
@@ -37286,7 +37506,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "3",
     "instantyield": 0.1018,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "8742"
   },
   {
     "isincode": "XS2708221341",
@@ -37316,7 +37537,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0314,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "8811"
   },
   {
     "isincode": "XS2716887760",
@@ -37408,7 +37630,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "6,12",
     "instantyield": 0.0652,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "8919"
   },
   {
     "isincode": "XS2722876609",
@@ -37531,7 +37754,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "1",
     "instantyield": 0.0341,
-    "issueprice": 99.179
+    "issueprice": 99.179,
+    "bondid": "1844103"
   },
   {
     "isincode": "XS2741344613",
@@ -37592,7 +37816,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0766,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "8756"
   },
   {
     "isincode": "XS2745705637",
@@ -37777,7 +38002,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "1",
     "instantyield": 0.0342,
-    "issueprice": 99.449
+    "issueprice": 99.449,
+    "bondid": "8942"
   },
   {
     "isincode": "XS2747600109",
@@ -37807,7 +38033,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "1",
     "instantyield": 0.0396,
-    "issueprice": 99.383
+    "issueprice": 99.383,
+    "bondid": "8943"
   },
   {
     "isincode": "XS2749779067",
@@ -37992,7 +38219,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "8770"
   },
   {
     "isincode": "XS2765024414",
@@ -38053,7 +38281,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "2",
     "instantyield": 0.0368,
-    "issueprice": 99.115
+    "issueprice": 99.115,
+    "bondid": "1844250"
   },
   {
     "isincode": "XS2770920937",
@@ -38145,7 +38374,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0736,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "8829"
   },
   {
     "isincode": "XS2829209720",
@@ -38206,7 +38436,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0679,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844038"
   },
   {
     "isincode": "XS2829810923",
@@ -38329,7 +38560,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0657,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844227"
   },
   {
     "isincode": "XS2887897200",
@@ -38359,7 +38591,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "8",
     "instantyield": 0.027,
-    "issueprice": 99.975
+    "issueprice": 99.975,
+    "bondid": "1844208"
   },
   {
     "isincode": "XS2887901325",
@@ -38575,7 +38808,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "3",
     "instantyield": 0.032,
-    "issueprice": 99.59
+    "issueprice": 99.59,
+    "bondid": "8944"
   },
   {
     "isincode": "XS2895631641",
@@ -38605,7 +38839,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "9",
     "instantyield": 0.0416,
-    "issueprice": 99.459
+    "issueprice": 99.459,
+    "bondid": "8945"
   },
   {
     "isincode": "XS2908633683",
@@ -38790,7 +39025,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "6,12",
     "instantyield": 0.0475,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "8917"
   },
   {
     "isincode": "XS2935655113",
@@ -38820,7 +39056,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0671,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844226"
   },
   {
     "isincode": "XS2958536976",
@@ -38850,7 +39087,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "2,8",
     "instantyield": 0.0481,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "8933"
   },
   {
     "isincode": "XS2970972613",
@@ -38880,7 +39118,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0571,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844040"
   },
   {
     "isincode": "XS2971936948",
@@ -39034,7 +39273,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "1",
     "instantyield": 0.0429,
-    "issueprice": 99.612
+    "issueprice": 99.612,
+    "bondid": "8946"
   },
   {
     "isincode": "XS2978594989",
@@ -39064,7 +39304,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "4",
     "instantyield": 0.0365,
-    "issueprice": 99.575
+    "issueprice": 99.575,
+    "bondid": "8947"
   },
   {
     "isincode": "XS2982293156",
@@ -39094,7 +39335,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0483,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844059"
   },
   {
     "isincode": "XS2982296092",
@@ -39124,7 +39366,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.074,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844060"
   },
   {
     "isincode": "XS2982308285",
@@ -39154,7 +39397,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "6",
     "instantyield": 0.0817,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844037"
   },
   {
     "isincode": "XS2982332400",
@@ -39184,7 +39428,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "7",
     "instantyield": 0.0319,
-    "issueprice": 99.905
+    "issueprice": 99.905,
+    "bondid": "1844281"
   },
   {
     "isincode": "XS2999533271",
@@ -39369,7 +39614,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0826,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844041"
   },
   {
     "isincode": "XS3032929930",
@@ -39647,7 +39893,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "5",
     "instantyield": 0.0395,
-    "issueprice": 99.89
+    "issueprice": 99.89,
+    "bondid": "1844004"
   },
   {
     "isincode": "XS3085263138",
@@ -39677,7 +39924,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0667,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844039"
   },
   {
     "isincode": "XS3109446610",
@@ -39769,7 +40017,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "5,11",
     "instantyield": 0.0683,
-    "issueprice": 99.812
+    "issueprice": 99.812,
+    "bondid": "1844068"
   },
   {
     "isincode": "XS3114901336",
@@ -39799,7 +40048,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "3,9",
     "instantyield": 0.0588,
-    "issueprice": 99.885
+    "issueprice": 99.885,
+    "bondid": "1844067"
   },
   {
     "isincode": "XS3124345631",
@@ -39829,7 +40079,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "7",
     "instantyield": 0.0368,
-    "issueprice": 97.836
+    "issueprice": 97.836,
+    "bondid": "1844050"
   },
   {
     "isincode": "XS3124393367",
@@ -39859,7 +40110,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "7",
     "instantyield": 0.0464,
-    "issueprice": 96.88
+    "issueprice": 96.88,
+    "bondid": "1844051"
   },
   {
     "isincode": "XS3129375732",
@@ -39889,7 +40141,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "7",
     "instantyield": 0.0316,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844061"
   },
   {
     "isincode": "XS3135860065",
@@ -39919,7 +40172,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0792,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844075"
   },
   {
     "isincode": "XS3189138111",
@@ -39949,7 +40203,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0567,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844224"
   },
   {
     "isincode": "XS3198384573",
@@ -39979,7 +40234,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "6",
     "instantyield": 0.0552,
-    "issueprice": 99.351
+    "issueprice": 99.351,
+    "bondid": "1844081"
   },
   {
     "isincode": "XS3198384813",
@@ -40009,7 +40265,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "10",
     "instantyield": 0.0631,
-    "issueprice": 99.312
+    "issueprice": 99.312,
+    "bondid": "1844079"
   },
   {
     "isincode": "XS3200176298",
@@ -40039,7 +40296,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "10",
     "instantyield": 0.0681,
-    "issueprice": 99.69
+    "issueprice": 99.69,
+    "bondid": "1844078"
   },
   {
     "isincode": "XS3213330791",
@@ -40069,7 +40327,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "2,8",
     "instantyield": 0.0465,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844165"
   },
   {
     "isincode": "XS3222075817",
@@ -40099,7 +40358,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0807,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844223"
   },
   {
     "isincode": "XS3268040964",
@@ -40129,7 +40389,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "1",
     "instantyield": 0.03,
-    "issueprice": 99.592
+    "issueprice": 99.592,
+    "bondid": "1844141"
   },
   {
     "isincode": "XS3268043554",
@@ -40159,7 +40420,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "6",
     "instantyield": 0.0386,
-    "issueprice": 99.047
+    "issueprice": 99.047,
+    "bondid": "1844142"
   },
   {
     "isincode": "XS3269554690",
@@ -40189,7 +40451,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "5",
     "instantyield": 0.0431,
-    "issueprice": 99.754
+    "issueprice": 99.754,
+    "bondid": "1844144"
   },
   {
     "isincode": "XS3269555234",
@@ -40219,7 +40482,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "3",
     "instantyield": 0.0488,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844143"
   },
   {
     "isincode": "XS3276320358",
@@ -40249,7 +40513,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "1",
     "instantyield": 0.0311,
-    "issueprice": 99.913
+    "issueprice": 99.913,
+    "bondid": "1844231"
   },
   {
     "isincode": "XS3276321752",
@@ -40279,7 +40544,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "1",
     "instantyield": 0.0441,
-    "issueprice": 98.699
+    "issueprice": 98.699,
+    "bondid": "1844207"
   },
   {
     "isincode": "XS3280518856",
@@ -40309,7 +40575,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "1",
     "instantyield": 0.027,
-    "issueprice": 99.673
+    "issueprice": 99.673,
+    "bondid": "1844157"
   },
   {
     "isincode": "XS3280519078",
@@ -40339,7 +40606,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "1",
     "instantyield": 0.0343,
-    "issueprice": 99.775
+    "issueprice": 99.775,
+    "bondid": "1844158"
   },
   {
     "isincode": "XS3280519318",
@@ -40369,7 +40637,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "1",
     "instantyield": 0.0403,
-    "issueprice": 99.354
+    "issueprice": 99.354,
+    "bondid": "1844159"
   },
   {
     "isincode": "XS3307442197",
@@ -40399,7 +40668,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "3",
     "instantyield": 0.0495,
-    "issueprice": 99.924
+    "issueprice": 99.924,
+    "bondid": "1844178"
   },
   {
     "isincode": "XS3307981491",
@@ -40429,7 +40699,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "1,7",
     "instantyield": 0.0635,
-    "issueprice": 99.956
+    "issueprice": 99.956,
+    "bondid": "1844179"
   },
   {
     "isincode": "XS3338525515",
@@ -40459,7 +40730,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0663,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844219"
   },
   {
     "isincode": "XS3345065505",
@@ -40489,7 +40761,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": null,
     "instantyield": 0.0662,
-    "issueprice": 100.0
+    "issueprice": 100.0,
+    "bondid": "1844220"
   },
   {
     "isincode": "XS3435288413",
@@ -40519,7 +40792,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "3",
     "instantyield": 0.0364,
-    "issueprice": 99.405
+    "issueprice": 99.405,
+    "bondid": "1844253"
   },
   {
     "isincode": "XS3435288769",
@@ -40549,7 +40823,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "5",
     "instantyield": 0.0446,
-    "issueprice": 99.737
+    "issueprice": 99.737,
+    "bondid": "1844251"
   },
   {
     "isincode": "XS3486811766",
@@ -40579,7 +40854,8 @@
     "couponperiodicity": 1.0,
     "couponmonths": "9",
     "instantyield": 0.0352,
-    "issueprice": 99.775
+    "issueprice": 99.775,
+    "bondid": "1844268"
   },
   {
     "isincode": "XS3511196753",
@@ -40609,7 +40885,8 @@
     "couponperiodicity": 0.0,
     "couponmonths": "3",
     "instantyield": 0.0419,
-    "issueprice": 99.737
+    "issueprice": 99.737,
+    "bondid": "1844289"
   },
   {
     "isincode": "ZAG000030404",
@@ -40639,7 +40916,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "3,9",
     "instantyield": 0.0743,
-    "issueprice": 77.846
+    "issueprice": 77.846,
+    "bondid": "1844273"
   },
   {
     "isincode": "ZAG000077470",
@@ -40669,7 +40947,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "2,8",
     "instantyield": 0.0732,
-    "issueprice": 82.389
+    "issueprice": 82.389,
+    "bondid": "1844271"
   },
   {
     "isincode": "ZAG000077488",
@@ -40699,7 +40978,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "2,8",
     "instantyield": 0.0822,
-    "issueprice": 75.517
+    "issueprice": 75.517,
+    "bondid": "1844277"
   },
   {
     "isincode": "ZAG000106998",
@@ -40729,7 +41009,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "1,7",
     "instantyield": 0.0802,
-    "issueprice": 95.2608
+    "issueprice": 95.2608,
+    "bondid": "1844270"
   },
   {
     "isincode": "ZAG000107004",
@@ -40759,7 +41040,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "3,9",
     "instantyield": 0.083,
-    "issueprice": 95.30336
+    "issueprice": 95.30336,
+    "bondid": "1844269"
   },
   {
     "isincode": "ZAG000107012",
@@ -40789,7 +41071,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "1,7",
     "instantyield": 0.0869,
-    "issueprice": 96.8747
+    "issueprice": 96.8747,
+    "bondid": "1844276"
   },
   {
     "isincode": "ZAG000125972",
@@ -40819,7 +41102,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "2,8",
     "instantyield": 0.0874,
-    "issueprice": 102.188
+    "issueprice": 102.188,
+    "bondid": "1844274"
   },
   {
     "isincode": "ZAG000125980",
@@ -40849,7 +41133,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "1,7",
     "instantyield": 0.0912,
-    "issueprice": 99.7471
+    "issueprice": 99.7471,
+    "bondid": "1844275"
   },
   {
     "isincode": "ZAG000195280",
@@ -40879,7 +41164,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "3,9",
     "instantyield": 0.0928,
-    "issueprice": 99.7824
+    "issueprice": 99.7824,
+    "bondid": "1844278"
   },
   {
     "isincode": "ZAG000208364",
@@ -40909,7 +41195,8 @@
     "couponperiodicity": 2.0,
     "couponmonths": "3,9",
     "instantyield": 0.0959,
-    "issueprice": 99.7644
+    "issueprice": 99.7644,
+    "bondid": "1844272"
   },
   {
     "isincode": "ZAG000208372",
@@ -40939,6 +41226,7 @@
     "couponperiodicity": 2.0,
     "couponmonths": "3,9",
     "instantyield": 0.0931,
-    "issueprice": 100.1472
+    "issueprice": 100.1472,
+    "bondid": "1844279"
   }
 ]
