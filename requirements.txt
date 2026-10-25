@@ -2,3 +2,4 @@ pandas==2.3.0
 requests
 beautifulsoup4
 lxml
+pyyaml

@@ -1,0 +1,18 @@
+# Manual corrections to bond data.
+# These always take precedence over both the master data and SimpleToolsForInvestors.
+#
+# Format:
+#   ISIN:
+#     field: value            # any output field (minimumlot, couponperiodicity, ...)
+#     _note: "free text"       # keys starting with _ are ignored, except:
+#     _exclude: true          # hides the bond from the app
+#
+# Example:
+#
+# IT0005XXXXXX:
+#   minimumlot: 1
+#   _note: "STFI reports 1000, Borsa Italiana reports 1 (verified 21/10/2026)"
+
+FR0013516549:
+  minimumlot: 1
+  _nota: "STFI reports 1000, Borsa Italiana reports 1 (verified 21/10/2026)"
