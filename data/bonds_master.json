@@ -4320,7 +4320,8 @@
     "_meta": {
       "first_seen": null,
       "to_review": false,
-      "enrich_last_attempt": null
+      "enrich_last_attempt": null,
+      "missing_since": "2026-10-27"
     }
   },
   "ES00000128P8": {
@@ -8141,6 +8142,52 @@
       "enrich_last_attempt": "2026-10-25"
     }
   },
+  "EU000A4E2K37": {
+    "isincode": "EU000A4E2K37",
+    "description": "BEI 15/11/2033 3,625%",
+    "redemptiondate": "15/11/2033",
+    "currencycode": "EUR",
+    "issuercode": "SOV_BEI",
+    "issuerdescription": "European Investment Bank",
+    "minimumlot": 1000,
+    "status": "Senior",
+    "couponperiodicity": 0.0,
+    "couponmonths": "11",
+    "ratingsp": "AAA",
+    "ratingmoodys": null,
+    "ratingfitch": null,
+    "currentcouponrate": 0.03625,
+    "bondid": "1844301",
+    "issueprice": null,
+    "_meta": {
+      "first_seen": "2026-10-27",
+      "to_review": true,
+      "enrich_last_attempt": "2026-10-27"
+    }
+  },
+  "EU000A4E2KT0": {
+    "isincode": "EU000A4E2KT0",
+    "description": "EUROPEAN UNION 12/12/2041 4,25%",
+    "redemptiondate": "12/12/2041",
+    "currencycode": "EUR",
+    "issuercode": "SOV_EU",
+    "issuerdescription": "European Union",
+    "minimumlot": 1,
+    "status": "Senior",
+    "couponperiodicity": 0.0,
+    "couponmonths": "12",
+    "ratingsp": "AA+",
+    "ratingmoodys": null,
+    "ratingfitch": null,
+    "currentcouponrate": 0.0425,
+    "bondid": "1844300",
+    "issueprice": null,
+    "_meta": {
+      "first_seen": "2026-10-27",
+      "to_review": true,
+      "enrich_last_attempt": "2026-10-27"
+    }
+  },
   "EU000A4EA8Y7": {
     "isincode": "EU000A4EA8Y7",
     "description": "EUROPEAN UNION 12/10/2045 3,75%",
@@ -11933,7 +11980,8 @@
     "_meta": {
       "first_seen": null,
       "to_review": false,
-      "enrich_last_attempt": null
+      "enrich_last_attempt": null,
+      "missing_since": "2026-10-27"
     }
   },
   "IT0001174611": {
@@ -16488,6 +16536,52 @@
       "first_seen": null,
       "to_review": false,
       "enrich_last_attempt": "2026-10-25"
+    }
+  },
+  "IT0005735201": {
+    "isincode": "IT0005735201",
+    "description": "BTP VALORE 8 27/10/2031 STEP UP 3,75% - 4,75%",
+    "redemptiondate": "27/10/2031",
+    "currencycode": "EUR",
+    "issuercode": "GOV_IT",
+    "issuerdescription": "Italia",
+    "minimumlot": 1000,
+    "status": "Senior",
+    "couponperiodicity": 0.0,
+    "couponmonths": "1,4,7,10",
+    "ratingsp": "BBB+",
+    "ratingmoodys": "Baa2",
+    "ratingfitch": null,
+    "currentcouponrate": 0.0375,
+    "bondid": "1844297",
+    "issueprice": null,
+    "_meta": {
+      "first_seen": "2026-10-27",
+      "to_review": true,
+      "enrich_last_attempt": "2026-10-27"
+    }
+  },
+  "IT0005735227": {
+    "isincode": "IT0005735227",
+    "description": "BTP VALORE INSIEME 9 27/10/2031 22,70% One coupon",
+    "redemptiondate": "27/10/2031",
+    "currencycode": "EUR",
+    "issuercode": "GOV_IT",
+    "issuerdescription": "Italia",
+    "minimumlot": 1000,
+    "status": "Senior",
+    "couponperiodicity": 0.0,
+    "couponmonths": null,
+    "ratingsp": "BBB+",
+    "ratingmoodys": "Baa2",
+    "ratingfitch": null,
+    "currentcouponrate": 0.027,
+    "bondid": "1844299",
+    "issueprice": null,
+    "_meta": {
+      "first_seen": "2026-10-27",
+      "to_review": true,
+      "enrich_last_attempt": "2026-10-27"
     }
   },
   "IT0006526609": {
@@ -22689,7 +22783,7 @@
     "couponperiodicity": 2.0,
     "couponmonths": "1,7",
     "ratingsp": "B",
-    "ratingmoodys": "Caa1",
+    "ratingmoodys": "B3",
     "ratingfitch": null,
     "currentcouponrate": 0.085,
     "issueprice": 100.0,
@@ -23333,7 +23427,7 @@
     "couponperiodicity": 2.0,
     "couponmonths": "2,8",
     "ratingsp": "B",
-    "ratingmoodys": "Caa1",
+    "ratingmoodys": "B3",
     "ratingfitch": null,
     "currentcouponrate": 0.07903,
     "issueprice": 100.0,

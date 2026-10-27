@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "isin": "XS2434896010",
+    "field": "description",
+    "master": "ROMANIA 27/03/2032 2,625% USD",
+    "source": "ROMANIA 27/03/2032 3,625% USD",
+    "first_detected": "2026-10-27",
+    "last_detected": "2026-10-27"
+  }
+]
