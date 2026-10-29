@@ -12,7 +12,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'data/overrides.yaml'
+      - 'data/overrides.yml'
       - 'data/bonds_master.json'
 
 permissions:

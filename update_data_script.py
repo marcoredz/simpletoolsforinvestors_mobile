@@ -2,7 +2,7 @@
 Daily update of bond data.
 
 Sources and priority (highest to lowest):
-  1. data/overrides.yaml     -> manual corrections, always take precedence
+  1. data/overrides.yml     -> manual corrections, always take precedence
   2. data/bonds_master.json  -> local reference data, written when an ISIN first appears
   3. SimpleToolsForInvestors "End of Day Data" CSV -> prices, yields, and new ISINs
 
@@ -42,7 +42,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 CSV_PATH = SCRIPT_DIR / "downloaded.csv"
 OUTPUT_PATH = SCRIPT_DIR / "docs/output_enriched.json"
 MASTER_PATH = SCRIPT_DIR / "data/bonds_master.json"
-OVERRIDES_PATH = SCRIPT_DIR / "data/overrides.yaml"
+OVERRIDES_PATH = SCRIPT_DIR / "data/overrides.yml"
 DIFFS_PATH = SCRIPT_DIR / "data/source_diffs.json"
 
 # Reference fields: written to the master only when the ISIN first appears.
@@ -113,6 +113,7 @@ def load_overrides():
           _exclude: true   # optional: hides the security from the output
     """
     if not OVERRIDES_PATH.exists():
+        log_message("OVR", f"Overrides file not found: {OVERRIDES_PATH}; no overrides applied", "WARNING")
         return {}
     try:
         with open(OVERRIDES_PATH, "r", encoding="utf-8") as f:
