@@ -15,6 +15,8 @@ Service file:
 Local usage:
   python update_data_script.py                  # download + processing
   python update_data_script.py --skip-download  # use the existing downloaded.csv
+
+All data paths are relative to this script's directory, regardless of the working directory.
 """
 
 from urllib.parse import urljoin
@@ -26,7 +28,6 @@ import math
 import os
 import re
 import sys
-import time
 
 import pandas as pd
 import requests
@@ -37,11 +38,12 @@ from bs4 import BeautifulSoup
 # Configuration
 # ---------------------------------------------------------------------------
 
-CSV_PATH = Path("downloaded.csv")
-OUTPUT_PATH = Path("docs/output_enriched.json")
-MASTER_PATH = Path("data/bonds_master.json")
-OVERRIDES_PATH = Path("data/overrides.yaml")
-DIFFS_PATH = Path("data/source_diffs.json")
+SCRIPT_DIR = Path(__file__).resolve().parent
+CSV_PATH = SCRIPT_DIR / "downloaded.csv"
+OUTPUT_PATH = SCRIPT_DIR / "docs/output_enriched.json"
+MASTER_PATH = SCRIPT_DIR / "data/bonds_master.json"
+OVERRIDES_PATH = SCRIPT_DIR / "data/overrides.yaml"
+DIFFS_PATH = SCRIPT_DIR / "data/source_diffs.json"
 
 # Reference fields: written to the master only when the ISIN first appears.
 # If the source later reports a different value, it is only flagged.
@@ -54,12 +56,12 @@ STATIC_FIELDS = [
 # Fields that change infrequently: updated from the source, but can be corrected by overrides.
 SEMI_STATIC_FIELDS = ["ratingsp", "ratingmoodys", "ratingfitch", "currentcouponrate"]
 
-# Fields retrieved separately from SimpleTools (yieldtable page + definition XML).
-ENRICHED_FIELDS = ["issueprice", "bondid"]
+# Fields retrieved separately from the SimpleTools yieldtable page.
+ENRICHED_FIELDS = ["bondid"]
 
 # All other CSV fields are considered daily data and are always taken from the source.
 
-# How often to retry retrieving missing bondid/issueprice values, in days.
+# How often to retry retrieving missing bondid values, in days.
 ENRICH_RETRY_DAYS = 7
 
 # If the CSV contains less than this fraction of the securities in the previous output,
@@ -230,42 +232,13 @@ def step2_fetch_isin_bondid_mapping():
         return None
 
 
-def step3_get_issue_price(bond_id):
-    xml_url = f"https://www.simpletoolsforinvestors.eu/data/definitions/{bond_id}.xml"
-    backoff, max_backoff = 60, 600
-    while True:
-        try:
-            response = requests.get(xml_url, headers=HTTP_HEADERS, timeout=HTTP_TIMEOUT)
-            response.raise_for_status()
-            soup = BeautifulSoup(response.content, "lxml-xml")
-            tag = soup.find("issueprice")
-            if not tag:
-                return None
-            try:
-                return float(tag.text.strip().replace(",", "."))
-            except ValueError:
-                return None
-        except requests.HTTPError as e:
-            status = getattr(e.response, "status_code", None)
-            if status == 429:
-                print(f"\nToo many requests for bondId {bond_id}. Pausing for {backoff} seconds...")
-                time.sleep(backoff)
-                backoff = min(backoff * 2, max_backoff)
-                continue
-            print(f"\nHTTP {status} while retrieving issue price for bondId {bond_id}")
-            return None
-        except Exception as e:
-            print(f"\nError while retrieving issue price for bondId {bond_id}: {e}")
-            return None
-
-
 # ---------------------------------------------------------------------------
 # Master data
 # ---------------------------------------------------------------------------
 
 def bootstrap_master_from_output():
     """On first run, build the master from the already published JSON so previously
-    retrieved bondid and issueprice values are preserved."""
+    retrieved bondid values are preserved."""
     existing = load_json(OUTPUT_PATH, default=None)
     if not existing:
         log_message("MASTER", "Nessun master né output esistente: si parte da zero", "WARNING")
@@ -296,7 +269,7 @@ def same_value(a, b):
 
 
 def needs_enrichment(rec, today):
-    if rec.get("bondid") is not None and rec.get("issueprice") is not None:
+    if rec.get("bondid") is not None:
         return False
     last = rec.get("_meta", {}).get("enrich_last_attempt")
     if not last:
@@ -306,9 +279,9 @@ def needs_enrichment(rec, today):
 
 def enrich(master, isins, today):
     if not isins:
-        log_message(3, "Nessun titolo da arricchire")
+        log_message(3, "No securities to enrich")
         return
-    log_message(3, f"{len(isins)} titoli senza bondid/issueprice da recuperare")
+    log_message(3, f"Retrieving missing bondid values for {len(isins)} securities")
 
     mapping = None
     if any(master[i].get("bondid") is None for i in isins):
@@ -318,17 +291,13 @@ def enrich(master, isins, today):
             return
 
     found = 0
-    for n, isin in enumerate(isins, 1):
+    for isin in isins:
         rec = master[isin]
         if rec.get("bondid") is None and mapping and isin in mapping:
             rec["bondid"] = mapping[isin]
-        if rec.get("bondid") is not None and rec.get("issueprice") is None:
-            print(f"\rIssue price {n}/{len(isins)} - {isin} (bondId {rec['bondid']})", end="")
-            rec["issueprice"] = step3_get_issue_price(rec["bondid"])
-        if rec.get("bondid") is not None and rec.get("issueprice") is not None:
+        if rec.get("bondid") is not None:
             found += 1
         rec["_meta"]["enrich_last_attempt"] = today.isoformat()
-    print()
     log_message(3, f"Arricchimento completato: {found}/{len(isins)} completi", "SUCCESS")
 
 
@@ -390,7 +359,6 @@ def main():
         if rec is None:
             rec = {f: row.get(f) for f in STATIC_FIELDS + SEMI_STATIC_FIELDS}
             rec["bondid"] = None
-            rec["issueprice"] = None
             rec["_meta"] = {"first_seen": today_s, "to_review": True,
                             "enrich_last_attempt": None}
             master[isin] = rec
@@ -417,7 +385,7 @@ def main():
     log_message("MASTER", f"Titoli nel CSV: {len(today_isins)} | nuovi: {len(new_isins)} | "
                           f"differenze anagrafiche: {len(diffs_today)}")
 
-    # --- Enrichment (bondid / issueprice) ----------------------------------
+    # --- Enrichment (bondid) ----------------------------------------------
     enrich(master, [i for i in today_isins if needs_enrichment(master[i], today)], today)
 
     # --- Differences report ------------------------------------------------
@@ -446,7 +414,7 @@ def main():
         out = {}
         for col in csv_columns:
             out[col] = rec.get(col) if col in master_fields else row.get(col)
-        out["issueprice"] = rec.get("issueprice")
+        out["issueprice"] = row.get("issueprice")
         out["bondid"] = rec.get("bondid")
         for field, value in ovr.items():
             if str(field).startswith("_"):
