@@ -2756,7 +2756,8 @@
     "_meta": {
       "first_seen": null,
       "to_review": false,
-      "enrich_last_attempt": null
+      "enrich_last_attempt": null,
+      "missing_since": "2026-10-31"
     }
   },
   "DE0001892057": {
