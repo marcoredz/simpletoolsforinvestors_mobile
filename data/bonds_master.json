@@ -20906,7 +20906,8 @@
     "_meta": {
       "first_seen": null,
       "to_review": false,
-      "enrich_last_attempt": null
+      "enrich_last_attempt": null,
+      "missing_since": "2026-11-03"
     }
   },
   "XS0071948540": {
