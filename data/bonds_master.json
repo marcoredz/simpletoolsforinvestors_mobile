@@ -6464,6 +6464,28 @@
       "enrich_last_attempt": "2026-10-25"
     }
   },
+  "EU000A2SCA15": {
+    "isincode": "EU000A2SCA15",
+    "description": "EUROPEAN STABILITY MECHANISM 08/04/2030 3,375%",
+    "redemptiondate": "08/04/2030",
+    "currencycode": "EUR",
+    "issuercode": "SOV_ESM",
+    "issuerdescription": "European Stability Mechanism",
+    "minimumlot": 1,
+    "status": "Senior",
+    "couponperiodicity": 0.0,
+    "couponmonths": "4",
+    "ratingsp": "AA+",
+    "ratingmoodys": null,
+    "ratingfitch": null,
+    "currentcouponrate": 0.03375,
+    "bondid": "1844302",
+    "_meta": {
+      "first_seen": "2026-11-07",
+      "to_review": true,
+      "enrich_last_attempt": "2026-11-07"
+    }
+  },
   "EU000A2SCAA6": {
     "isincode": "EU000A2SCAA6",
     "description": "EFSF 17/01/2053 0,7%",
@@ -17962,7 +17984,8 @@
     "_meta": {
       "first_seen": null,
       "to_review": false,
-      "enrich_last_attempt": null
+      "enrich_last_attempt": null,
+      "missing_since": "2026-11-07"
     }
   },
   "SE0009496367": {
@@ -22241,7 +22264,8 @@
     "_meta": {
       "first_seen": null,
       "to_review": false,
-      "enrich_last_attempt": null
+      "enrich_last_attempt": null,
+      "missing_since": "2026-11-07"
     }
   },
   "XS1361554584": {
