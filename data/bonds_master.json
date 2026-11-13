@@ -25136,7 +25136,7 @@
     "ratingsp": null,
     "ratingmoodys": null,
     "ratingfitch": null,
-    "currentcouponrate": 0.019,
+    "currentcouponrate": 0.0225,
     "issueprice": 100.0,
     "bondid": "7929",
     "_meta": {
@@ -30456,6 +30456,72 @@
       "first_seen": null,
       "to_review": false,
       "enrich_last_attempt": "2026-10-25"
+    }
+  },
+  "XS3562395122": {
+    "isincode": "XS3562395122",
+    "description": "ROMANIA 09/11/2030 5,25%",
+    "redemptiondate": "09/11/2030",
+    "currencycode": "EUR",
+    "issuercode": "GOV_RO",
+    "issuerdescription": "Romania",
+    "minimumlot": 1000,
+    "status": "Senior",
+    "couponperiodicity": 1.0,
+    "couponmonths": "11",
+    "ratingsp": "BBB-",
+    "ratingmoodys": "Baa3",
+    "ratingfitch": null,
+    "currentcouponrate": 0.0525,
+    "bondid": "1844305",
+    "_meta": {
+      "first_seen": "2026-11-13",
+      "to_review": true,
+      "enrich_last_attempt": "2026-11-13"
+    }
+  },
+  "XS3562401037": {
+    "isincode": "XS3562401037",
+    "description": "ROMANIA 09/11/2034 6,125%",
+    "redemptiondate": "09/11/2034",
+    "currencycode": "EUR",
+    "issuercode": "GOV_RO",
+    "issuerdescription": "Romania",
+    "minimumlot": 1000,
+    "status": "Senior",
+    "couponperiodicity": 1.0,
+    "couponmonths": "11",
+    "ratingsp": "BBB-",
+    "ratingmoodys": "Baa3",
+    "ratingfitch": null,
+    "currentcouponrate": 0.06125,
+    "bondid": "1844304",
+    "_meta": {
+      "first_seen": "2026-11-13",
+      "to_review": true,
+      "enrich_last_attempt": "2026-11-13"
+    }
+  },
+  "XS3562401896": {
+    "isincode": "XS3562401896",
+    "description": "ROMANIA GREEN BOND 09/11/2038 6,75%",
+    "redemptiondate": "09/11/2038",
+    "currencycode": "EUR",
+    "issuercode": "GOV_RO",
+    "issuerdescription": "Romania",
+    "minimumlot": 1000,
+    "status": "Senior",
+    "couponperiodicity": 1.0,
+    "couponmonths": "11",
+    "ratingsp": "BBB-",
+    "ratingmoodys": "Baa3",
+    "ratingfitch": null,
+    "currentcouponrate": 0.0675,
+    "bondid": "1844303",
+    "_meta": {
+      "first_seen": "2026-11-13",
+      "to_review": true,
+      "enrich_last_attempt": "2026-11-13"
     }
   },
   "ZAG000030404": {
